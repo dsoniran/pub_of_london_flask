@@ -1,0 +1,94 @@
+h1 {
+color: green;
+text-align: center;
+font-family: verdana, arial, sans-serif;}
+
+h5{
+text-align: center;
+font-family: verdana, arial, sans-serif;}
+
+p {
+color: black;
+font-family: verdana, arial, sans-serif;
+font-size: 80%;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 150px;
+margin-inline-end: 150px;
+}
+
+
+.container {
+border: 5px solid green;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.para-style{
+text-align: center;
+margin: 13px 0px -9.66px}
+
+.para-style-right{
+text-align: right;
+display: fixed;}
+
+.pie{
+display: flex;
+justify-content: center;}
+
+.bar{
+display: flex;
+justify-content: center;}
+
+.center{
+text-align= center;}
+
+.cont {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: green;
+}
+
+.cont:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  font-family: verdana, arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+div a {
+color: white;}
+
+a{
+color: black; }
