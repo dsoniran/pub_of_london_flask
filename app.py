@@ -17,7 +17,7 @@ def map_of_london_pubs():
 
 #---Bar Chart Page
 
-@app.route('/pub-chart')
+@app.route('/bar-chart')
 def pubchart():
     return render_template("bar_chart.html")
 
